@@ -24,6 +24,10 @@ header li > a {
   background-color: #87bb34;
   
 }
+header li >a:hover{
+background-color: #87bb34c4;
+transition: all 0.2s ease;
+}
 header {
 display: flex;
 flex-direction: row;
