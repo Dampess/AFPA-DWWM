@@ -49,3 +49,18 @@ h1{
     border-radius: 50px;
     font-size:xx-large;
 }
+
+@media (max-width: 820px){
+    .container{
+        margin: 0;
+    }
+    h1,h2,main a{
+        margin: 0;
+        margin-bottom: 15%;
+        padding: 0;
+       font-size: x-large;
+    }
+    main a{
+        font-size: medium;
+    }
+}

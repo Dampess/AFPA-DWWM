@@ -32,3 +32,13 @@ h1 {
 
   margin: 1%;
 }
+@media (max-width: 820px){
+  h1{
+    margin: 5%;
+    font-size: x-large;
+  }
+  .gallery>img{
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
